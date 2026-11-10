@@ -1,0 +1,12 @@
+{
+  "name": "joshfinnie-skills",
+  "version": "0.0.0",
+  "description": "Agent skills by Josh Finnie.",
+  "author": {
+    "name": "Josh Finnie",
+    "url": "https://joshfinnie.com"
+  },
+  "homepage": "https://joshfinnie.com/skills/",
+  "repository": "https://github.com/joshfinnie/skills",
+  "license": "MIT"
+}

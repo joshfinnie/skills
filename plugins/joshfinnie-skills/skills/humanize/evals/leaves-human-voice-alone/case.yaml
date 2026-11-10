@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: leaves-human-voice-alone
+expected_outcome: |
+  Recognizes the paragraph already reads as human and makes few or no edits. Keeps the specific numbers (11 days, 4.2s to 380ms, the 2am page), the admitted uncertainty, the casual tone, and the ending. Does not flag a lone em dash or a lone "crucial" as AI tells.

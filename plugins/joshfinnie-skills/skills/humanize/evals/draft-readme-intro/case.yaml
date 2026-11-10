@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: draft-readme-intro
+expected_outcome: |
+  Writes a short README intro for tidyenv that says concretely what it does (dedupes and sorts .env files, warns about keys missing from .env.example). Has no generic opener, no em dashes, no buzzwords like leverage, seamless, robust or streamline, and no hype or summary closer.

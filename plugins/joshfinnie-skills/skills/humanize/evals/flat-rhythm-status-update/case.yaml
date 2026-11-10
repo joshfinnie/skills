@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: flat-rhythm-status-update
+expected_outcome: |
+  Identifies uniform sentence length as the problem and rewrites the update with varied rhythm (at least one short sentence and one long one, no flat run of three similar-length sentences), keeping every fact and adding none.

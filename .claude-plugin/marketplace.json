@@ -1,0 +1,22 @@
+{
+  "name": "joshfinnie-skills",
+  "owner": {
+    "name": "Josh Finnie",
+    "url": "https://github.com/joshfinnie"
+  },
+  "metadata": {
+    "description": "Agent skills by Josh Finnie."
+  },
+  "plugins": [
+    {
+      "name": "joshfinnie-skills",
+      "source": "./plugins/joshfinnie-skills",
+      "category": "development",
+      "author": {
+        "name": "Josh Finnie"
+      },
+      "homepage": "https://joshfinnie.com/skills/",
+      "description": "Agent skills by Josh Finnie."
+    }
+  ]
+}

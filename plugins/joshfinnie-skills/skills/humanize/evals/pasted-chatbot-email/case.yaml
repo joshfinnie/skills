@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: pasted-chatbot-email
+expected_outcome: |
+  Returns a cleaned-up version of the email with the chatbot artifacts removed: no "Great question!", no "I hope this helps" or "Let me know if" chatter, the [Your Name] placeholder handled (filled or flagged), and the utm_source=chatgpt.com parameter stripped from the link, while keeping the actual content (the March 14 date, the 3 vendors, the link target).

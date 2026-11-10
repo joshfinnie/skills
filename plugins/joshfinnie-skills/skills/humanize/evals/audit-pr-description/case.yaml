@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audit-pr-description
+expected_outcome: |
+  Reports AI-writing findings in pr.md using the audit report format (summary, per-instance findings with location, category, quote and fix, then patterns) without rewriting or modifying pr.md.
+context:
+  scaffold_script: place-files.sh
