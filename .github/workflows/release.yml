@@ -21,6 +21,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
       - uses: astral-sh/setup-uv@v10.3.3
+        with:
+          enable-cache: false
       - name: Validate against the Agent Skills reference validator
         run: |
           for skill in plugins/joshfinnie-skills/skills/*/; do
