@@ -20,7 +20,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3
       - name: Validate against the Agent Skills reference validator
         run: |
           for skill in plugins/joshfinnie-skills/skills/*/; do
@@ -46,7 +46,7 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: changesets/action@v2
+      - uses: changesets/action@v2.1.2
         with:
           version-script: pnpm run version
           publish-script: pnpm changeset tag
