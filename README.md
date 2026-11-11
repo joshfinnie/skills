@@ -13,6 +13,8 @@ See [joshfinnie.com/skills](https://joshfinnie.com/skills/) for what each one do
 | [`mermaid-gen`](plugins/joshfinnie-skills/skills/mermaid-gen/SKILL.md) | Maps an existing codebase into Mermaid diagrams (architecture overview and, when there's a schema, an ER diagram), with every box backed by real imports and files. |
 | [`handoff`](plugins/joshfinnie-skills/skills/handoff/SKILL.md) | Writes a self-contained brief for another agent session, saves it to `/tmp`, and copies it to your clipboard so you can paste it into the other context. |
 | [`staff-review`](plugins/joshfinnie-skills/skills/staff-review/SKILL.md) | A principal-engineer-level review of a branch, or of the whole repo on the default branch. Reviews the diff and traces every connection into the rest of the system: callers, API consumers, schemas, migrations, and deploys. |
+| [`og-image`](plugins/joshfinnie-skills/skills/og-image/SKILL.md) | Builds a code-generated Open Graph share card from the site's real brand and a mock of the product, wires the meta tags for Next.js, Astro, or any static site, and checks the result with a bundled tag checker. |
+| [`new-repo`](plugins/joshfinnie-skills/skills/new-repo/SKILL.md) | Puts a local project on GitHub right the first time: the correct commit identity, a clean `.gitignore`, a secret scan, a real first commit, and a private repo by default. Also covers forks and going public. |
 
 ## Install
 
