@@ -1,5 +1,11 @@
 # joshfinnie-skills
 
+## 0.2.0
+
+### Minor Changes
+
+- [#2](https://github.com/joshfinnie/skills/pull/2) [`3a04b94`](https://github.com/joshfinnie/skills/commit/3a04b9461f6d50f274c1e35531f3a7d4f170c0f5) Thanks [@joshfinnie](https://github.com/joshfinnie)! - Add `og-image`, which builds a code-generated Open Graph share card and checks its meta tags, and `new-repo`, which puts a local project on GitHub with the right commit identity, a secret scan, and a private repo by default.
+
 ## 0.1.0
 
 ### Minor Changes
